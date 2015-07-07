@@ -1,4 +1,4 @@
-p{
+/*p{
 	color: black;
 	font-size: 18px;
 	font-style: italic;
@@ -50,4 +50,7 @@ ul{
 .paragraph{
 	max-width: 460px;
 	margin: 0 auto;
+}*/
+.btn-primary{
+	width: 100%;
 }
