@@ -105,9 +105,8 @@ ul{
 	margin: 0;
 	padding: 0;
 }
-body, input, button {
+button {
 	font: 14px "Trebuchet MS", sans-serif;
-	text-align: right;
 }
 .button {
 	padding: 8px 16px
