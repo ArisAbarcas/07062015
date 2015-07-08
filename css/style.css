@@ -54,3 +54,72 @@ ul{
 .btn-primary{
 	width: 100%;
 }
+#navMenu{
+	margin: 0;
+	padding: 0;
+}
+#navMenu ul{
+	margin: 0;
+	padding: 0;
+	line-height: 30px;
+}
+#navMenu li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	position: relative;
+	background: #999;
+}
+#navMenu ul li a {
+	text-align: center;
+	font-family: 
+	text-decoration: none;
+	height: 30px;
+	width: 150px;
+	display: block;
+	color: #FFF;
+	border: 1px solid #FFF;
+	text-shadow: 1px 1px 1px #000;
+}
+#navMenu ul ul{
+	position: absolute;
+	visibility: hidden;
+	top: 32px;
+}
+#navMenu ul li:hover ul{
+	visibility: visible;
+}
+#navMenu li:hover {
+	background: #09F;
+}
+#navMenu ul li:hover ul li a:hover {
+	background: #CCC;
+	color: #000;
+}
+#navMenu a:hover {
+	color: #000;
+}
+.clearFloat {
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
+body, input, button {
+	font: 14px "Trebuchet MS", sans-serif;
+	text-align: right;
+}
+.button {
+	padding: 8px 16px
+	display: inline-block;
+	text-decoration: none;
+	border-radius: 3px;
+}
+.button-secondary {
+	background: slategrey;
+	color: #fff;
+}
+.button-secondary:hover {
+	background: lightslategrey;
+
+}
