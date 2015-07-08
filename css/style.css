@@ -108,17 +108,20 @@ ul{
 button {
 	font: 14px "Trebuchet MS", sans-serif;
 }
-.button {
+button {
 	padding: 8px 16px
 	display: inline-block;
 	text-decoration: none;
 	border-radius: 3px;
+	text-align: right;
 }
-.button-secondary {
+button-secondary {
 	background: slategrey;
 	color: #fff;
 }
-.button-secondary:hover {
+button-secondary:hover {
 	background: lightslategrey;
-
+}
+#social-media-icons {
+	float: right;
 }
